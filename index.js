@@ -4,7 +4,7 @@ button.addEventListener('click',() => {
     const cardNumber = input.value
     const isValid = Moon_Algorithm(cardNumber)
     document.querySelector('#algoritm_validation').innerText = isValid
-    const validSystem = checkPaymentSystem(cardNumber,isValid)
+    const validSystem = checkPaymentSystem(cardNumber, isValid)
     document.querySelector('#paymentsystem_validation').innerText = validSystem
 })
 const Moon_Algorithm = setValue => {
